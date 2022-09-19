@@ -1,0 +1,9 @@
+.products {
+    /* background-color: rgb(174, 188, 172); */
+    padding:5% 5% 0;
+    /* margin:auto; */
+    display:grid;
+    justify-content:center;
+    grid-template-columns: repeat(4, 300px);    
+    grid-gap: 40px;    
+}

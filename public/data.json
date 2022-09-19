@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "Fuyu Jiro Persimmon Tree",
+        "description": "Mauris vitae ultricies leo integer malesuada. Quam id leo in vitae turpis massa sed",
+        "categories": "Fruit",
+        "image": "./Images/Fuyu_Persimmon.jpg",
+        "price": "$34"
+        
+    },
+
+    {
+        "id": 2,
+        "title": "Apple Tree",
+        "description": "Sweet Apple",
+        "categories": "Fruit",
+        "image": "./Images/apple.jpg",
+        "price": "$65"
+        
+    },
+
+    {
+        "id": 3,
+        "title": "Green Beans",
+        "description": "At imperdiet dui accumsan sit amet. Nec feugiat in fermentum posuere urna nec. Amet nisl purus in mollis nunc sed id semper. Nec sagittis aliquam malesuada bibendum arcu vitae. ",
+        "categories": "Vegetable",
+        "image": "./Images/green_beans.webp",
+        "price": "$50"
+        
+    },
+
+    {
+        "id": 4,
+        "title": "Zucchini",
+        "description": "Amet porttitor eget dolor morbi non arcu risus quis. Tortor consequat id porta nibh venenatis cras sed. Elementum tempus egestas sed sed risus.",
+        "categories": "Vegetable",
+        "image": "./Images/Zucchini.jpg",
+        "price": "$73"
+        
+
+    },
+
+    {
+        "id": 5,
+        "title": "Fuyu Jiro Persimmon Tree",
+        "description": "Mauris vitae ultricies leo integer malesuada. Quam id leo in vitae turpis massa sed",
+        "categories": "Fruit",
+        "image": "./Images/apple.jpg",
+        "price": "$34"
+        
+    },
+
+    {
+        "id": 6,
+        "title": "Apple Tree",
+        "description": "Sweet Apple",
+        "categories": "Fruit",
+        "image": "./Images/Fuyu_Persimmon.jpg",
+        "price": "$65"
+        
+    },
+
+    {
+        "id": 7,
+        "title": "Green Beans",
+        "description": "At imperdiet dui accumsan sit amet. Nec feugiat in fermentum posuere urna nec. Amet nisl purus in mollis nunc sed id semper. Nec sagittis aliquam malesuada bibendum arcu vitae. ",
+        "categories": "Vegetable",
+        "image": "./Images/green_beans.webp",
+        "price": "$50"
+        
+    },
+
+    {
+        "id": 8,
+        "title": "Zucchini",
+        "description": "Amet porttitor eget dolor morbi non arcu risus quis. Tortor consequat id porta nibh venenatis cras sed. Elementum tempus egestas sed sed risus.",
+        "categories": "Vegetable",
+        "image": "./Images/Zucchini.jpg",
+        "price": "$73"
+        
+
+    }
+]
