@@ -19,7 +19,7 @@ const Checkout = () => {
 
     return (
         <div style={{ padding: "2% 10%" }}>
-            <h1 style={{ color: "#3F762C" }}>Checkout</h1>
+            <h1 style={{ color: "#3F762C", fontFamily: "'Raleway', sans-serif" }}>Checkout</h1>            
             <div style={{
                 display: "flex",
                 justifyContent: "space-around",
@@ -41,7 +41,9 @@ const Checkout = () => {
                         color: "#808080",
                         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
                     }}>
-                    <h2>Shipping and Payment</h2>
+
+                    <h2 style = {{ fontFamily: "'Raleway', sans-serif", }}>Shipping and Payment</h2>
+                    <hr style={{ width:"100px", marginBottom: "50px", marginTop:"-10px" }}/>
                     <div style={{
                         display: "flex",
                         flexDirection: "column",
@@ -57,8 +59,8 @@ const Checkout = () => {
                         }}>
 
                             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                <p>Shipping Address</p>
-                                <p style={{ cursor: "pointer", fontSize: "20px", fontWeight: "bold" }} onClick={handleShowAddress}>{showShippingAddress ? "-" : "+"}</p>
+                                <p style = {{ fontFamily: "'Raleway', sans-serif", fontSize: "20px" }}>Shipping Address</p>
+                                <p style={{ cursor: "pointer", fontSize: "20px" }} onClick={handleShowAddress}>{showShippingAddress ? "-" : "+"}</p>
 
                             </div>
                             {
@@ -77,7 +79,7 @@ const Checkout = () => {
                         }}>
                             <div style={{ display: "flex", justifyContent: "space-between" }}>
 
-                                <p>Shipping Method</p>
+                                <p style = {{ fontFamily: "'Raleway', sans-serif", }}>Shipping Method</p>
                                 <p style={{ cursor: "pointer" }} onClick={handleShowShippingMethod}>+</p>
                             </div>
                             {
@@ -92,7 +94,7 @@ const Checkout = () => {
                             padding: "2% 5%",
                             boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
                         }}>
-                            <p>Payment Method</p>
+                            <p style = {{ fontFamily: "'Raleway', sans-serif", }}>Payment Method</p>
                             <p style={{ cursor: "pointer" }}>+</p>
                         </div>
                     </div>
@@ -114,15 +116,17 @@ const Checkout = () => {
                         borderRadius: "5px",
                         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
                     }}>
-                        <h2>Order summary</h2>
+                        <h2 style={{ fontFamily: "'Raleway', sans-serif", }}>Order summary</h2>
+                        <hr style={{ width:"100px", marginBottom: "50px", marginTop:"-10px" }}/>
                         <div style={{ 
                             display: "flex", 
                             justifyContent: "flex-start", 
                             gap: "30px", 
-                            alignItems: "center" 
+                            alignItems: "center",
+                            marginBottom:"20px" 
                             }}>
                             <img src="https://i.postimg.cc/V6DMJvMR/eggplant.jpg" height="100" width="100" style={{ borderRadius: "5px", boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }} />
-                            <div style={{ textAlign: "left" }}>
+                            <div style={{ textAlign: "left", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Eggplant</p>
                                 <p>Qty: 1</p>
                                 <p>Price: $10</p>
@@ -131,7 +135,7 @@ const Checkout = () => {
 
                         <div style={{ display: "flex", justifyContent: "flex-start", gap: "30px", alignItems: "center" }}>
                             <img src="https://i.postimg.cc/fbdBScTv/Blueberry.jpg" height="100" width="100" style={{ borderRadius: "5px", boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }} />
-                            <div style={{ textAlign: "left" }}>
+                            <div style={{ textAlign: "left", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Blueberry</p>
                                 <p>Qty: 1</p>
                                 <p>Price: $10</p>
@@ -141,24 +145,24 @@ const Checkout = () => {
 
                         <div>
                             {/* <div style={{ width:"320px", height:"1px", background:"#808000"}}></div> */}
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Subtotal</p>
                                 <p>$60</p>
                             </div>
 
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Shipping</p>
                                 <p>$60</p>
                             </div>
 
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Tax</p>
                                 <p>$10</p>
                             </div>
 
                             <div style={{ width: "320px", height: "1px", background: "#808000" }}></div>
 
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "'Raleway', sans-serif", }}>
                                 <p>Order Subtotal</p>
                                 <p>$130</p>
                             </div>
@@ -169,7 +173,7 @@ const Checkout = () => {
 
                     <button style={{
                         width: "fit-content",
-                        padding: "2% 10%",
+                        // padding: "2% 10%",
                         marginTop: "30px",
                         background: "#358856",
                         color: "#fff",
@@ -177,7 +181,13 @@ const Checkout = () => {
                         fontSize: "16px",
                         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
                         cursor: "pointer",
-                        letterSpacing: "1px"
+                        letterSpacing: "1px",
+                        fontFamily: "'Raleway', sans-serif",
+                        fontWeight:"bold",
+                            borderWidth: "0px 0px 0px 0px",
+    
+    padding: "10px 50px 10px 50px",
+    textTransform:"uppercase"
                     }}>Confirm and Pay</button>
                 </div>
 

@@ -22,7 +22,7 @@ const Cart = () => {
                             <img src="https://i.postimg.cc/7hGT6kkt/persimmon-tree.jpg"
                                 className = { styles.cartImage } />
 
-                            <div style={{ padding: "0 20px", textAlign: "left" }} >
+                            <div style={{ padding: "0 20px", textAlign: "left", fontFamily: "'Raleway', sans-serif" }} >
                                 <p>Persimmon tree</p>
                                 <p>Qty: 1</p>
                                 <p>Price: $10</p>
@@ -47,7 +47,7 @@ const Cart = () => {
                             <img src="https://i.postimg.cc/d388qFvR/IMG-7846.jpg"
                                 className = { styles.cartImage } />
 
-                            <div style={{ padding: "0 20px", textAlign: "left" }} >
+                            <div style={{ padding: "0 20px", textAlign: "left", fontFamily: "'Raleway', sans-serif" }} >
                                 {/* <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}> */}
                                 <p>Iris</p>
 
@@ -70,6 +70,7 @@ const Cart = () => {
 
                 <div className={ styles.orderSummaryContainer }>
                     <h2 style={{ color: "#3F762C", }}>Order summary</h2>
+                    <hr style={{ width:"100px", marginBottom: "50px", marginTop:"-10px" }}/>
                     <div>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <p>Subtotal</p>
@@ -112,7 +113,8 @@ const Cart = () => {
             <div style={{ width: "1100px", height: "1px", background: "#808000", margin: "50px auto 30px", }}></div>
             {/* saved for later section */}
             <div>
-                <h2 style={{ color: "#3F762C", marginBottom: "50px" }}>Saved for later (2 items)</h2>
+                <h2 style={{ color: "#3F762C", fontFamily: "'Raleway', sans-serif" }}>Saved for later (2 items)</h2>
+                <hr style={{ width:"100px", marginBottom: "50px", marginTop:"-10px" }}/>
 
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "30px" }}>
 
@@ -123,7 +125,7 @@ const Cart = () => {
                                 className = { styles.cartImage } />
                             <div>
 
-                                <p style={{ marginBottom: "60px", textAlign: "left" }}>Rose of Sharon</p>
+                                <p style={{ marginBottom: "60px", textAlign: "left", fontFamily: "'Raleway', sans-serif" }}>Rose of Sharon</p>
                                 <div style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
                                     <button className={ styles.cartButton }>Move to cart</button>
                                     <button className={ styles.cartButton }>Remove</button>
@@ -144,7 +146,7 @@ const Cart = () => {
                                 className = { styles.cartImage } />
                             <div>
 
-                                <p style={{ marginBottom: "60px", textAlign: "left" }}>Passion Fruit</p>
+                                <p style={{ marginBottom: "60px", textAlign: "left", fontFamily: "'Raleway', sans-serif" }}>Passion Fruit</p>
                                 <div style={{ display: "flex", justifyContent: "space-between", gap: "10px" }}>
                                     <button className={ styles.cartButton }>Move to cart</button>
                                     <button className={ styles.cartButton }>Remove</button>

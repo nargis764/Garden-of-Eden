@@ -16,7 +16,8 @@ const Navbar = () => {
             display:"flex", 
             justifyContent:"space-between", 
             alignItems:"center", 
-            backgroundColor: "rgb(128, 180, 137)"}}>
+            backgroundColor: "rgb(128, 180, 137)",
+            fontFamily: "'Raleway', sans-serif"}}>
 
             <Logo>Garden Of Eden</Logo>
             
